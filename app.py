@@ -191,7 +191,11 @@ class QLearningAgent:
 # Page UI
 # -----------------------------
 
-def main(): 
+def main():
+    st.set_page_config(page_title="Maze Solver w/ Q-Learning"
+                    # layout="wide"
+                    )
+    
     st.title("Maze Solver w/ Q-Learning")
     st.divider()
     
